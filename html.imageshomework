@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ket's Cafe</title>
+    <style>
+
+        *{
+            font-family: 'Monsserrat', sans-serif;
+           
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        img{
+            width: 100px;
+            border-radius: 5px;
+        }
+
+        main{
+            display: flex;
+            gap: 5px;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            padding-top: 50px;
+        }
+
+        h6{
+            padding: 0px;
+            margin: 0px;
+            color: rgb(231, 231, 231);
+            font-weight: bold;
+        }
+
+            
+        header{
+            background-color: rgb(34, 162, 209);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+        }
+
+        .money{
+            padding: 0px;
+            margin: 0px;
+            color: rgb(139, 195, 196);
+            font-weight: bold;
+        }
+
+        ul{
+            padding:16px;
+            list-style: none;
+        }
+        
+        ul li{
+            display: inline-block;
+            padding: 0px 10px;
+           
+        }
+
+        ul li a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        label{
+            color:rgb(255, 255, 255);
+            margin: 16px;
+            font-weight: bold;
+            font-size: large;
+        }
+
+        .seach-exercise{
+            border: none;
+            border-radius: 50px;
+            height: 25px;
+            font-family:'Montserrat',sans-serif;
+            font-size: 16px;
+            width: 200px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <label>Ket's Cafe</label>
+         <ul>
+            <li><a href="KFC.html">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="resturant_gallery.html">Photo</a></li>
+            <li><a href="#">Contacts</a></li>
+          
+        </ul>
+        <input type="sear" class="seach-exercise" placeholder="Search Food">
+    </header><br><br>
+    <main>
+        <div><img src="img/pic1.jpeg"><br><h1>Cafe</h6><h6 class="money"></h1>
